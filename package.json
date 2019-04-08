@@ -1,0 +1,23 @@
+{
+  "name": "azure-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/backend/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarpisik/azure-nodejs.git"
+  },
+  "author": "Sarp IŞIK <contact@sarpisik.com> (sarpisik.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarpisik/azure-nodejs/issues"
+  },
+  "homepage": "https://github.com/sarpisik/azure-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

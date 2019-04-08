@@ -4,7 +4,7 @@ const app = express()
 
 app.use(function(req, res) {
   res.json({
-    message: 'Hello from azure nodejs app'
+    message: 'Hello from azure nodejs app!'
   })
 })
 

@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/sarpisik/azure-nodejs#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-mongo-sanitize": "^1.3.2",
+    "mongodb": "^3.2.3",
+    "simple-node-logger": "^18.12.22"
   }
 }

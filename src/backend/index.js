@@ -26,6 +26,8 @@ db.OpenDB()
       next()
     })
 
+    app.use('/', express.static('publish'))
+
     app.post(['/api/open', '/api/open*'], (request, response, next) => {
       // Convert html req path into local file path
       //  and require the function of this path which is a login function
